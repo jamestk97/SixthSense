@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SixthSense</string>
+    <string name="title_home">Recording</string>
+    <string name="title_dashboard">Patterns</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_patterns">Patterns</string>
+    <string name="title_activity_notifications">Notifications</string>
+</resources>
