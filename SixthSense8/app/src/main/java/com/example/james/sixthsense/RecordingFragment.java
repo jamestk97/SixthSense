@@ -139,7 +139,7 @@ public class RecordingFragment extends Fragment{
         alert.setTitle("Save this pattern");
         alert.setMessage("Please enter a name for this pattern");
 
-        // Set an EditText view to get user input
+        // Set an EditText popup view to get user input
         final EditText input = new EditText(this.getContext());
         alert.setView(input);
 //-----------------------------------------------------------------------------------------
@@ -163,7 +163,7 @@ public class RecordingFragment extends Fragment{
         alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
 
-
+                //empty because cancel does nothing
             }
         });
 

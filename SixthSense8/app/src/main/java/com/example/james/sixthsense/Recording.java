@@ -13,6 +13,7 @@
 
 package com.example.james.sixthsense;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.annotation.NonNull;
@@ -79,6 +80,7 @@ public class Recording extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recording);
+        startService(new Intent(this, NotificationListener.class));
 
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
@@ -97,4 +99,7 @@ public class Recording extends AppCompatActivity {
 
     }
 
+
+    public void onSaveClick(View view) {
+    }
 }
